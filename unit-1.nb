@@ -1,0 +1,154 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5511,        146]
+NotebookOptionsPosition[      5037,        129]
+NotebookOutlinePosition[      5431,        145]
+CellTagsIndexPosition[      5388,        142]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"SquareWave", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", " ", 
+     RowBox[{"x", "/", 
+      RowBox[{"(", 
+       RowBox[{"2", "*", "Pi"}], ")"}]}]}], "]"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", 
+     RowBox[{
+      RowBox[{"-", "3"}], "*", 
+      RowBox[{"Pi", "/", "2"}]}], ",", " ", 
+     RowBox[{"3", "*", 
+      RowBox[{"Pi", "/", "2"}]}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.857779445152824*^9, 3.8577794740717993`*^9}, {
+  3.8577795499430428`*^9, 3.857779565441588*^9}, {3.857779603698618*^9, 
+  3.857779693041951*^9}, {3.8577797274007387`*^9, 3.857779732990473*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"4eb46706-1a6a-49dd-af28-83b6aeebf375"],
+
+Cell[BoxData[
+ GraphicsBox[{{{}, {}, 
+    TagBox[
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], Opacity[
+      1.], LineBox[{{-4.712388788042282, 1.}, {-4.619890997467689, 
+       1.}, {-4.527393206893096, 1.}, {-4.326836798114375, 
+       1.}, {-4.139570922810512, 1.}, {-3.9559784606133777`, 
+       1.}, {-3.756825170786706, 1.}, {-3.570962414434894, 
+       1.}, {-3.369538830453546, 1.}, {-3.2706637450162352`, 
+       1.}, {-3.171788659578925, 1.}, {-3.16025993224144, 
+       1.}, {-3.148731204903955, 1.}, {-3.1458490230695837`, 
+       1.}, {-3.1445980037048344`, 1.}}], LineBox[CompressedData["
+1:eJxTTMoPSmViYGCQAmIQ/biFYeVlac4DDGDwYf8vadZcfV4E/9F0S9tERgS/
+oZ27TuMSB5wvV3533/tFCH5UWKNDnQuCP91U9RDPM3Y4X+zR1+lWkgj+tL5j
+uRk+bHC++f05Wn/OssD584rnXBENZ4bzhZ6sVQ48wAjna/p8aT7iwgDnz1aY
+KbQ56O9+GL/AYM73F1q/4Pwufc7/fZbf4fx9z2YGVHB8gfPNe6ccucj7Ec6f
+ej2V9e6y13D+lcXuZnoBT+F8i7m/wvefuQfnG1/+kq3/6yKcXzKzu7T/93E4
+n0UyWq2BdQec3xLSF3Vg4go4P/ryAr618zLgfACc+pbg
+       "]], 
+      LineBox[CompressedData["
+1:eJxTTMoPSmViYGBQBmIQHX15Ad/aeRn2DGDwwd5NhGPFncIqOL+FsS/ATrwZ
+If9hoee9y30I+fdRivYeU+F85Xzz3vymBQj5tIOd+xOWwfmLV2UdXM+3Ec5n
+WfRl7/832+D8iPj69UJGJ+D862ZMBy6VXYLzpTvusy2NuAfnV/2ZJrR1zlM4
+/7yq5Nv/717D+b47kh1NX32A86erijstl/kC589dnKCwUuI7nC8+K1xlPusv
+OL/shta9QKO/cP5J4VNWXiIMDjC+5/2ch57rGeF89c23ygT1meF8e2d5+eDl
+LHC+1/dApWJ7Nji/7mqA9PO/CP6mzf4i0XvY4fyTq7uW9yhzwPkPFh+12teF
+4L+WT2YJ34fgf5vNcO79RwT/5690hmv/EPw/keeN9nBzIuznZPbRF0Lw/+8w
+S10kgeA/bmFYeVkawQcAic2nGA==
+       "]], 
+      LineBox[{{3.1445980037048344`, -1.}, {3.155923816749013, -1.}, {
+       3.168520698195158, -1.}, {3.267459043210959, -1.}, {
+       3.3663973882267593`, -1.}, {3.550983544783501, -1.}, {
+       3.751130528969779, -1.}, {3.9379869796811975`, -1.}, {
+       4.121170017285888, -1.}, {4.319913882520115, -1.}, {
+       4.505367214279484, -1.}, {4.608878001160883, -1.}, {
+       4.712388788042282, -1.}}]},
+     Annotation[#, "Charting`Private`Tag$13637#1"]& ], {}}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->
+   NCache[{{Rational[-3, 2] Pi, Rational[3, 2] Pi}, {-1., 
+     1.}}, {{-4.71238898038469, 4.71238898038469}, {-1., 1.}}],
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.8577794749684067`*^9, {3.857779608768763*^9, 3.857779693424968*^9}, 
+   3.857779733296699*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"3a050c26-11de-48f1-945b-3978fab0771f"]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"639429fd-3baa-452e-94fa-68997a42927a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 804, 21, 30, "Input",ExpressionUUID->"4eb46706-1a6a-49dd-af28-83b6aeebf375"],
+Cell[1387, 45, 3634, 81, 263, "Output",ExpressionUUID->"3a050c26-11de-48f1-945b-3978fab0771f"]
+}, Open  ]]
+}
+]
+*)
+

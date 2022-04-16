@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     58569,       1153]
-NotebookOptionsPosition[     55745,       1098]
-NotebookOutlinePosition[     56142,       1114]
-CellTagsIndexPosition[     56099,       1111]
+NotebookDataLength[     61092,       1223]
+NotebookOptionsPosition[     58040,       1164]
+NotebookOutlinePosition[     58437,       1180]
+CellTagsIndexPosition[     58394,       1177]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1094,6 +1094,72 @@ StFt
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{{3.858901882801886*^9, 3.858901889050687*^9}},
  CellLabel->"Out[22]=",ExpressionUUID->"df6b2935-55bd-4e69-8903-45156bc3889e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"clear", " ", "k"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"clear", " ", "L"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"clear", " ", "mA"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"clear", " ", "mb"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mA", " ", "=", " ", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"1", ",", "0", ",", "0", ",", "1"}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", "k", ",", "0"}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "L", ",", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"k", "*", "L"}], "]"}], ",", 
+       RowBox[{"Cos", "[", 
+        RowBox[{"k", "*", "L"}], "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", 
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{"k", "^", "2"}]}], "*", 
+        RowBox[{"Sin", "[", 
+         RowBox[{"k", "*", "L"}], "]"}]}], ",", 
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{"k", "^", "2"}]}], "*", 
+        RowBox[{"Cos", "[", 
+         RowBox[{"k", "*", "L"}], "]"}]}]}], "}"}]}], "\[IndentingNewLine]", 
+    "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mb", " ", "=", " ", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", "0", "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", "0", "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", "0", "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", "0", "}"}]}], "\[IndentingNewLine]", "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"LinearSolve", "[", 
+  RowBox[{"mA", ",", "mb"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.858989706220726*^9, 3.8589899505326843`*^9}},
+ CellLabel->"In[54]:=",ExpressionUUID->"26571b56-68f1-4c12-aa5c-03171a1ca47e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", "0", "}"}], ",", 
+   RowBox[{"{", "0", "}"}], ",", 
+   RowBox[{"{", "0", "}"}], ",", 
+   RowBox[{"{", "0", "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.858989849957582*^9, {3.858989935663228*^9, 3.8589899509943447`*^9}},
+ CellLabel->"Out[60]=",ExpressionUUID->"8f0cceed-ad58-4699-9e67-48eaebd3afac"]
 }, Open  ]]
 },
 WindowSize->{808, 911},
@@ -1154,6 +1220,10 @@ Cell[CellGroupData[{
 Cell[39602, 801, 677, 19, 109, "Input",ExpressionUUID->"e0a805f4-aeb1-44bf-a034-e214d0c9c698"],
 Cell[40282, 822, 172, 2, 69, "Output",ExpressionUUID->"ce951ba9-54bf-4f14-8c4b-bf4caa26b2eb"],
 Cell[40457, 826, 15272, 269, 375, "Output",ExpressionUUID->"df6b2935-55bd-4e69-8903-45156bc3889e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[55766, 1100, 1894, 50, 543, "Input",ExpressionUUID->"26571b56-68f1-4c12-aa5c-03171a1ca47e"],
+Cell[57663, 1152, 361, 9, 111, "Output",ExpressionUUID->"8f0cceed-ad58-4699-9e67-48eaebd3afac"]
 }, Open  ]]
 }
 ]
